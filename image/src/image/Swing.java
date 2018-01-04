@@ -11,7 +11,7 @@ class FirstWindow extends JFrame{
 	FirstWindow(String s){
 		super(s);
 		setSize(160,170);
-		setLocation(120,120);
+		setLocation(130,120);
 		setVisible(true);
 		menubar=new JMenuBar();
 		menu=new JMenu("文件");
@@ -30,7 +30,7 @@ class FirstWindow extends JFrame{
 }
 public class Swing {
 	public static void main(String args[]) {
-		FirstWindow win =new FirstWindow("窗口");
+	 new FirstWindow("窗口");
 	}
 
 }
